@@ -1,10 +1,10 @@
 # CITUR
-create iso to use [the linux version of Rosehip](https://github.com/donno2048/Rosehip-L)
+create iso to use [the linux version of Rosehip](https://github.com/CITUR-OS/Rosehip-L)
 
 <details>
 <summary>In linux</summary>
   
-clone it with the command: `git clone https://github.com/donno2048/CITUR-L --depth 1`
+clone it with the command: `git clone https://github.com/CITUR-OS/CITUR-L --depth 1`
   
 cd to the folder
 
@@ -27,7 +27,7 @@ make sure you are using internet which doesn't require any special certificate.
 
 5. run the command `docker run -ti ubuntu`
 
-6. run the command `apt-get update && DEBIAN_FRONTEND="noninteractive" apt-get install tzdata -y && apt-get install git -y && apt-get install sudo -y && git clone --depth 1 https://github.com/donno2048/CITUR-L.git && cd CITUR-L/ && yes | sudo bash ./init.sh`
+6. run the command `apt-get update && DEBIAN_FRONTEND="noninteractive" apt-get install tzdata -y && apt-get install git -y && apt-get install sudo -y && git clone --depth 1 https://github.com/CITUR-OS/CITUR-L.git && cd CITUR-L/ && yes | sudo bash ./init.sh`
 
 (to paste in the docker you need to right-click)
 
@@ -38,8 +38,8 @@ see _DOCKER.md_ for details of how to build it from my docker image
 
 in the iso run the word "rosehip" to open the desktop
 
-you can also use [the windows version of CITUR](https://github.com/donno2048/CITUR) corresponding to [the windows version of Rosehip](https://github.com/donno2048/Rosehip)
+you can also use [the windows version of CITUR](https://github.com/CITUR-OS/CITUR) corresponding to [the windows version of Rosehip](https://github.com/CITUR-OS/Rosehip)
 
-the windows iso and the linux iso both using the same [setup steps](https://gist.github.com/donno2048/2fb40cc45e742a03feddb957896bfdb6) after you have the iso file
+the windows iso and the linux iso both using the same [setup steps](https://github.com/CITUR-OS/CITUR-L/blob/linux-beta/setup.md) after you have the iso file
 
-if you don't want to actually build the iso but only check how would it look like, you should checkout [the web version of Rosehip](https://github.com/donno2048/Rosehip-repl)
+if you don't want to actually build the iso but only check how would it look like, you should checkout [the web version of Rosehip](https://github.com/CITUR-OS/Rosehip-repl)
